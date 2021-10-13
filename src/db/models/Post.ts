@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import connection from "@lib/db";
+import connection from "@db/connection";
 
 const PostSchema = async () => {
     await connection();
